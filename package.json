@@ -1,0 +1,5 @@
+"scripts": {
+    "build": "npx hardhat compile && cd client && npm run build",
+    "build:frontend": "webpack",
+    "start": "cd client && npm run start"
+  },
