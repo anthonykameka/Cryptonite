@@ -1,1 +1,1 @@
-{"scripts":{"build":"npx hardhat compile && cd client && npm run build","build:frontend":"webpack","start":"cd client && npm run start"},"dependencies":{"hardhat":"^2.13.0"}}
+{"scripts":{"build":" cd smart_contract && npm install && cd ../client && npm install && npm run build","build:frontend":"webpack","start":"cd client && npm run start"},"dependencies":{"hardhat":"^2.13.0"}}
